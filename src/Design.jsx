@@ -2,6 +2,8 @@ import React from "react"
 import "./App.css"
 
 export default function Design(){
+
+    return(
     <div className="container">
         <div className="app-container">
             <div className="head-container">
@@ -13,12 +15,17 @@ export default function Design(){
             </div>
             <div className="body-container">
                 <div className="todo-container">
-                    <p>Shopping</p>
-                    <button>add</button>
-                    <button>edit</button>
+                    <p className='todo-items'>Shopping</p>
+                    <div className="btn">
+                        <button>E</button>
+                        <button>D</button>
+                    </div>
+                    
                 </div>
+               
             </div>
 
         </div>
     </div>
+    )
 }

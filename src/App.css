@@ -1,0 +1,120 @@
+
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.container{
+
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container{
+  position: relative;
+  width: 300px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.head-container{
+  padding: 0;
+  margin: 0;
+  top: 0;
+  height: 15vh;
+  border-bottom: 5px dotted white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.head-container h1{
+  
+  text-align: center;
+}
+.input-wrapper {
+  background:blue;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.input-wrapper input{
+  height: 30px;
+  font-size: 16px;
+  width: 80%;
+  border-bottom-left-radius: 5px;
+}
+
+.input-wrapper button{
+  width: 20%;
+  font-size: 16px;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  background: white;
+  border-top-right-radius: 5px;
+  
+}
+.body-container{
+  height: 40vh;
+  overflow: scroll;
+}
+
+.todo-container{
+ 
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  height: 40px;
+  
+  
+ 
+}
+
+.todo-items, .btn{
+  font-size: 20px;
+ margin-bottom: 3px;
+ 
+}
+.todo-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.btn{
+  display: flex;
+  gap: 5px;
+  width: 20%;
+  
+  justify-content: space-between;
+
+}
+.btn button{
+  /* eight: 30px;h */
+  /* width: 40px; */
+  font-size: 16px;
+  border-radius: none;
+  border: none;
+  gap: 1px;
+  width: 40%;
+  outline: none;
+  border-radius: 1px;
+  
+}
+
+
+
